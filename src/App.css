@@ -1274,8 +1274,8 @@ img { max-width: 100%; display: block; }
   .mobile-br { display: block; }
   .wa-discount-badge { font-size: 10px; padding: 4px 10px; }
   .hero-desc { font-size: 13px; line-height: 1.6; }
-  .hero-cta { font-size: 12px; padding: 14px 32px; }
-  .hero-cta-row { flex-direction: row; }
+  .hero-cta { font-size: 12px; padding: 12px 20px; }
+  .hero-cta-row { flex-direction: row; flex-wrap: nowrap; gap: 10px; }
 
   /* About */
   .about-grid { grid-template-columns: 1fr !important; gap: 24px; }
