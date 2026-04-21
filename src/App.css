@@ -375,11 +375,11 @@ img { max-width: 100%; display: block; }
 .mobile-br { display: none; }
 .wa-badge-wrap { position: relative; }
 .wa-discount-badge {
-  position: absolute; top: -10px; right: -18px;
+  position: absolute; top: -10px; left: -18px;
   background: #e24b4a; color: #fff; font-size: 12px; font-weight: 600;
   padding: 5px 12px; border-radius: 2px; letter-spacing: 0.5px;
   line-height: 1; white-space: nowrap;
-  transform: rotate(8deg);
+  transform: rotate(-8deg);
 }
 .scroll-hint {
   position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
